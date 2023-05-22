@@ -1,0 +1,226 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif !important;
+}
+body{
+    background: url('bg.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.no-link{
+    text-decoration: none;
+}
+#hotel{
+    background: url('hotel.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#cater{
+    background: url('cater.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#decor{
+    background: url('decor.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navbar{
+    background: #ffffff77 !important;
+    box-shadow: 0 0 10px #000;
+}
+.navbar .nav-item{
+    margin-right: 20px;
+}
+
+.index-wrap{
+    min-height: calc(100vh - 56px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.index-wrap .card-wrap{
+    background: #ffffff99;
+    margin: 50px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: -2px -2px 5px #fff , 2px 2px 5px #555 ;
+    backdrop-filter:blur(5px);
+    border-radius: 10px;
+    text-align: center;
+    transition: all .5s;
+}
+.index-wrap .card-wrap:hover{
+    width: 270px;
+}
+
+.index-wrap .card-wrap .image img{
+    width: 100%;
+}
+.index-wrap .card-wrap .name{
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.index-wrap .card-wrap .price{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.index-wrap .card-wrap .details li{
+    list-style: none;
+}
+.btn-primary{
+    background: #61d6e1;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    box-shadow: -2px -2px 5px #fff , 2px 2px 5px #555 ;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.btn-warning{
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    box-shadow: -2px -2px 5px #fff , 2px 2px 5px #555 ;
+    text-transform: uppercase;
+
+}
+.btn-danger{
+    border: none;font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    box-shadow: -2px -2px 5px #fff , 2px 2px 5px #555 ;
+    text-transform: uppercase;
+}
+.login-wrap{
+    min-height: calc(100vh - 56px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-wrap .title{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    color: #949aad;
+}
+
+.login-wrap form{
+    width: 600px;
+    background: #ffffff99;
+    padding: 40px;
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+    border: none;
+    box-shadow:  0 0 10px #000 ;
+}
+.data-wrap{
+    min-height: calc(100vh - 56px);
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.data-wrap img{
+    max-width: 120px;
+}
+.data-wrap .form-label{
+    font-weight: 700;
+}
+.data-wrap .title{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    color: #949aad;
+}
+
+.data-wrap form{
+    width: 100%;
+    max-width: 1000px;
+    padding: 20px;
+    border-radius: 5px;
+    background: #ffffff99;
+    backdrop-filter:blur(5px);
+    border: none;
+    box-shadow: -2px -2px 5px #fff , 2px 2px 5px #555 ;
+}
+.data-table-wrap{
+    min-height: calc(100vh - 56px);
+    padding: 100px;   
+}
+
+.data-table-wrap .title{
+    font-size: 30px; 
+    font-weight: 700;
+    text-align: center;
+    color: #949aad;
+}
+
+.data-table-wrap .table-wrap{
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    background: #ffffff99;
+    backdrop-filter: blur(5px);
+    border: none;
+    box-shadow: -2px -2px 5px #fff , 2px 2px 5px #555 ;
+}
+.table-wrap .title{
+    font-size: 24px;
+    font-weight: 600;
+    width: 100%;
+    text-align: left;
+    color: #000;
+    margin-bottom: 10px;
+}
+.table-wrap .pkg{
+    box-shadow: inset -2px -2px 5px #fff , 2px 2px 5px #555 ; 
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px; 
+    font-size: 13px;  
+    transition: all .5s;
+}
+.table-wrap .hotels ,
+.table-wrap .caters ,
+.table-wrap .decors {
+    margin-bottom: 20px;
+}
+.table-wrap .hotels .hotel,
+.table-wrap .caters .cater,
+.table-wrap .decors .decor{
+    box-shadow: inset -2px -2px 5px #fff , 2px 2px 5px #555 ; 
+    padding: 10px;
+    height: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: all .5s;
+}
+.table-wrap .pkg:hover,
+.table-wrap .hotels .hotel:hover,
+.table-wrap .caters .cater:hover,
+.table-wrap .decors .decor:hover{
+    font-size: 17px;
+}
+
+.table-wrap span{
+    font-weight: 700;
+}
+
+.table-wrap.x{
+    padding-bottom:10px;
+}
+.table{
+    font-size: 13px;
+}
